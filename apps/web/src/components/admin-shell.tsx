@@ -42,8 +42,8 @@ export function AdminShell({
       <AppFrame
         sidebar={
           <div className="px-3 py-4">
-            <div className="px-2">
-              <BrandLogo className="h-8 w-auto" />
+            <div className="px-1">
+              <BrandLogo fill className="w-full" />
             </div>
             <div className="mt-3 px-1">
               <SiteSwitcher model={switcher} />

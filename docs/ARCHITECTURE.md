@@ -4,7 +4,7 @@ Phase 1 is the shell. Later phases fill the modules. This document is the contra
 
 ## Ownership and branding
 
-PubCommand is owned by Agora StealthWorks. PubCommand's own screens (the console, every organization's app, the login and the organization picker) end with a footer carrying the black stacked "By Agora StealthWorks" logo (`/brand/agora-stealthworks-stacked-black.svg`, `OwnerFooter` in `apps/web/src/components/brand.tsx`). Customers' public sites (websites, funnels, mini-blogs) never show it. PubCommand's system emails carry the white logo in a black bar under the PubCommand masthead (`docs/EMAILS.md`).
+PubCommand is owned by Agora StealthWorks. PubCommand's own screens (the console, every organization's app, the login and the organization picker) end with a footer carrying the black horizontal "By Agora StealthWorks" logo (`/brand/agora-stealthworks-horizontal-black.svg`, `OwnerFooter` in `apps/web/src/components/brand.tsx`). Customers' public sites (websites, funnels, mini-blogs) never show it. PubCommand's system emails carry the white logo in a black bar under the PubCommand masthead (`docs/EMAILS.md`).
 
 ## Tenancy
 

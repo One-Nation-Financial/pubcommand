@@ -58,8 +58,8 @@ export function OrgShell({
   const sidebar = (
     <div className="flex min-h-full flex-col">
       <div className="space-y-3 px-4 py-4">
-        <Link href="/" className="flex items-center" aria-label="PubCommand dashboard">
-          <BrandLogo className="h-8 w-auto" />
+        <Link href="/" className="block" aria-label="PubCommand dashboard">
+          <BrandLogo fill className="w-full" />
         </Link>
         <SiteSwitcher model={switcher} />
         <div className="rounded-lg border border-line px-2 py-1.5">
